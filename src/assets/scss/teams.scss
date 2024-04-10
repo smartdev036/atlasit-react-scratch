@@ -1,0 +1,28 @@
+@import '../../colors.scss';
+
+.memberlist {
+    .app-container {
+        max-width: 1200px;
+        padding: 50px 20px;
+        .member {
+            padding: 50px;
+            margin-bottom: 50px;
+            color: $color-34;
+            border: 1px solid #CCC;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+            .row {
+                img {
+                    width: 100%;
+                    height: 80%;
+                }
+                .col-md-8.title{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}

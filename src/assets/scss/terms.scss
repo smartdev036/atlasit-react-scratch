@@ -1,0 +1,17 @@
+@import '../../colors.scss';
+
+.TermsPage {
+  margin: 30px;
+  margin-top: 80px;
+  border: 1px sold red;
+  color: $bg-black;
+  .app-container {
+    margin-top: 100px;
+    max-width: 560px; 
+    margin: 0 auto;
+    h3 {
+      margin: 20px 0 ;
+      font-size: 32px;
+    }
+  }
+}

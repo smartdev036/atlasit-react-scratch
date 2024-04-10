@@ -1,0 +1,14 @@
+@import '../../../colors';
+
+.primaryButton{
+  color: white;
+  border: none;
+  background-color:  rgb(91, 184, 236);
+  transition: all 0.5s;
+  font-size: 18px;
+  padding: 10px 20px;
+  &:hover {
+      background-color: $color-primary;
+      transform: scale(1.1);
+  }
+}

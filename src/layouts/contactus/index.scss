@@ -1,0 +1,64 @@
+@import '../../_colors';
+
+
+.contactus {
+    background-color: $color-34;
+    padding: 80px 20px;
+    .app-container {
+        background-color: $bg-black;
+        max-width: 1020px;
+        border-radius: 16px;
+        margin: 0 auto;
+        .title {
+            padding: 40px 0 20px;
+            color: $color-primary;
+            letter-spacing: 1px;
+            span {
+                font-size: 16px;
+                font-weight: 700;
+            }
+            h2 {
+                margin-top: 40px;
+                font-size: 40px;
+                color: white;
+                letter-spacing: 0.2px;
+            }
+        } 
+        @media screen and (max-width: 768px){
+            .red-divider {
+                width: 100px;
+            }
+        }
+        .contactinfo {
+            .row {                
+                padding: 0px 50px; 
+                .col-md-6, .col-md-12 {
+                    padding-bottom: 20px;
+                    label {
+                        padding-bottom: 8px;
+                        sup {
+                            color: $color-primary;
+                            font-weight: 700;
+                            font-size: 14px;
+                        }
+                    }
+                    .form-control {
+                        background-color: $color-90;  
+                        color: white; 
+                        border:none;
+                        &::placeholder {
+                            color: $color-gray;
+                        }                     
+                    }
+                    &.submitBtn .primaryButton{
+                        padding: 6px 30px !important;
+                        &:hover {
+                            transform: scale(1);
+                        }
+                    }
+                }                
+            }       
+
+        }
+    }
+}

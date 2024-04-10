@@ -1,0 +1,57 @@
+@import '../../colors.scss';
+
+.datenschutzPage {
+    color: $bg-black;    
+    margin-top: 50px;
+    padding:50px 50px;
+    .app-container {
+        max-width: 1080px;
+        margin: 0 auto;
+        .text-center {
+            h3 {
+                font-size: 28px;
+                padding: 20px;
+            }
+        }
+        h2 {
+            font-size: 36px;
+            padding: 8px 0;
+            font-weight: 500;
+        }
+        h3 {
+            font-size: 28px;
+            padding: 8px 0;
+        }
+        h4 {
+            font-size: 21px;
+            padding: 8px 0;
+        }
+        h5 {
+            font-size: 18px;
+            padding: 8px 0;
+        }
+        p, li {
+            padding: 10px 0;
+            font-size: 14px;
+            color: $color-34;
+        }
+        li{
+            padding:1px 0;
+        }
+        p {
+            text-align: justify;
+        }
+        a {
+            text-decoration: none;
+        }
+
+    }
+    .customBox {
+        font-size: 14px;
+        color: $color-34;
+        padding: 8px; 
+        margin: 8px; 
+        text-align: justify;
+        border: 1px solid black;
+    }
+}

@@ -1,0 +1,25 @@
+@import '_colors';
+
+.App {
+  background-color: $bg-main;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: $font-quicksand;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.bd-1 {
+  border: 1px solid red !important;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin:0 auto;
+}

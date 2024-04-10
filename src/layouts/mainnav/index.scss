@@ -1,0 +1,55 @@
+@import '../../_colors';
+
+.main-nav {
+    z-index: 99;
+    background-color: $bg-main !important;
+    box-shadow: rgba(0,0,0, 0.54) 0px 0px 4px !important;
+    position: fixed;
+    top: 0;
+    .nav-container {
+        max-width: 1200px !important;
+        @media screen and (max-width: 1024px){
+            flex-direction: row;
+            .search {
+                display: none;
+            }
+        }
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        .nav-logo {
+            flex-grow: 1;
+            img {
+                height: 70px;
+            }
+        }
+        .search {
+            svg {
+                color: black;
+                margin:0 30px;
+            }
+        }
+    
+    }
+
+    #responsive-navbar-nav {
+        @mixin active-nav {
+            color: $color-primary;
+        }
+        .me-auto.navbar-nav{
+            a {
+                font-size: 20px !important ;
+                font-weight: bold;
+                color: $color-third;
+                text-decoration: none;
+                padding: 0 6px;
+            }
+            a:hover {
+                color: $color-primary;
+            }
+            a.active {
+                color: $color-primary;
+            }
+        }
+    }
+}
